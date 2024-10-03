@@ -1,0 +1,35 @@
+body {
+  background: #110017;
+  color: aliceblue;
+}
+h2 {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+h1 {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #f50582;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+}
+.address {
+  display: flex;
+  justify-content: left;
+  flex-flow: column nowrap;
+}
+.contact {
+  display: flex;
+  justify-content: right;
+  flex-flow: column nowrap;
+}
+p {
+  display: flex;
+  justify-content: center;
+}
